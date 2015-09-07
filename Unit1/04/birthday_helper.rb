@@ -6,7 +6,7 @@ name = gets.chomp
 # puts "what is your friend's name?"
 # name = gets.chomp
 # person = nil
-# CSV.foreach("../examples/birthday_data.csv", :headers => true) do |row|
+# CSV.foreach(". /birthday_data.csv", :headers => true) do |row|
 #   #the :headers argument knows to map the first line of the CSV to the keys of a hash object
 #   #the CSV.foreach iterates over each row and it knows from the first row what each element in the row is
 #   first_name = row["first_name"]
